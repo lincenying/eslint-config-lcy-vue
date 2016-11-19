@@ -125,7 +125,7 @@ module.exports = {
         "valid-jsdoc": 2,
         "wrap-regex": 2,
 
-        "babel/arrow-parens": [2, "as-needed"],
-        "babel/generator-star-spacing": [2, "before"]
+        "arrow-parens": [2, "as-needed"],
+        "generator-star-spacing": [2, "before"]
     }
 }
