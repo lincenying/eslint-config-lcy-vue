@@ -32,7 +32,7 @@ module.exports = {
     "plugins": [
         "import",
         "babel",
-        "vue"
+        "html"
     ],
     "settings": {
         "import/ignore": [
