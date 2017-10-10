@@ -18,11 +18,11 @@ module.exports = {
     },
     "extends": [
         "eslint:recommended",
-        'plugin:vue/recommended'
+        // 'plugin:vue/recommended'
     ],
     "parser": "babel-eslint",
     "parserOptions":  {
-        "ecmaVersion": 6,
+        "ecmaVersion": 2017,
         "sourceType": "module",
         "ecmaFeatures": {
             "jsx": true,
