@@ -18,10 +18,10 @@ module.exports = {
     },
     "extends": [
         "eslint:recommended",
-        // 'plugin:vue/recommended'
+        "plugin:vue/essential"
     ],
-    "parser": "babel-eslint",
     "parserOptions":  {
+        "parser": "babel-eslint",
         "ecmaVersion": 2017,
         "sourceType": "module",
         "ecmaFeatures": {
@@ -33,7 +33,7 @@ module.exports = {
     "plugins": [
         "import",
         "babel",
-        "html"
+        "vue"
     ],
     "settings": {
         "import/ignore": [
@@ -79,7 +79,7 @@ module.exports = {
         "no-eval": 2,
         "no-extend-native": 2,
         "no-extra-bind": 2,
-        "no-extra-parens": 2,
+        "no-extra-parens": 0,
         "no-floating-decimal": 2,
         "no-implied-eval": 2,
         "no-inline-comments": 2,
@@ -127,6 +127,14 @@ module.exports = {
         "wrap-regex": 2,
 
         "arrow-parens": [2, "as-needed"],
-        "generator-star-spacing": [2, "before"]
+        "generator-star-spacing": [2, "before"],
+
+        "vue/html-indent": ["error", 4, {
+            "attribute": 1,
+            "closeBracket": 0,
+            "alignAttributesVertically": true,
+            "ignores": []
+        }],
+        'vue/this-in-template': [2, 'never']
     }
 }
