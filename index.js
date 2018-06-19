@@ -144,6 +144,15 @@ module.exports = {
       }
     ],
     "vue/this-in-template": [2, "never"],
+    "vue/html-quotes": [
+      "error",
+      "double"
+    ],
+    "vue/order-in-components": "error",
+    "vue/html-indent": [
+      "error",
+      4
+    ],
     "prettier/prettier": "error"
   }
 };
