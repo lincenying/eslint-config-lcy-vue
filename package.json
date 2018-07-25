@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-lcy-vue",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "eslint config for vue.js projects",
   "main": "index.js",
   "repository": {

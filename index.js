@@ -23,8 +23,7 @@ module.exports = {
     sourceType: "module",
     ecmaFeatures: {
       jsx: true,
-      generators: true,
-      experimentalObjectRestSpread: true
+      generators: true
     }
   },
   plugins: ["import", "babel", "vue", "prettier"],
