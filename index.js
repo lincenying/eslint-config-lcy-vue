@@ -132,26 +132,13 @@ module.exports = {
     "arrow-parens": [2, "as-needed"],
     "generator-star-spacing": [2, "before"],
 
-    "vue/html-indent": [
-      "error",
-      4,
-      {
-        attribute: 1,
-        closeBracket: 0,
-        alignAttributesVertically: true,
-        ignores: []
-      }
-    ],
+    "vue/html-indent": 0,
     "vue/this-in-template": [2, "never"],
     "vue/html-quotes": [
       "error",
       "double"
     ],
     "vue/order-in-components": "error",
-    "vue/html-indent": [
-      "error",
-      4
-    ],
     "prettier/prettier": "error"
   }
 };
