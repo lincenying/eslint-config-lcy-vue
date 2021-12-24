@@ -18,7 +18,7 @@ module.exports = {
   },
   extends: ["eslint:recommended", "plugin:vue/essential", "prettier"],
   parserOptions: {
-    parser: "babel-eslint",
+    parser: "@babel/eslint-parser",
     ecmaVersion: 2017,
     sourceType: "module",
     ecmaFeatures: {
